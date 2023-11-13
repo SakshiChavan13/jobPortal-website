@@ -15,9 +15,11 @@ Install dependencies
 -npm run dev
 
 2)run the following command to setup the database
+<br>
 php artisan migrate
 
 3) set up for parsdown-extra ( for job content)
+ <br>
 -composer require erusev/parsedown-extra
 
 
