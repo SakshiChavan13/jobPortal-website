@@ -5,7 +5,6 @@ Place the folder into  the following path C/Laragon/www.
 Install dependencies
 
 <p>1)Run the below commands to setup the authentication using Breeze:</p>
-<br>
 -composer require laravel/breeze
 <br>
 -php artisan breeze:install
