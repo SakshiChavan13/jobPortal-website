@@ -1,5 +1,22 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
+Place the folder into  the following path C/Laragon/www.
+
+Install dependencies
+
+1)Run the below commands to setup the authentication using Breeze:
+-composer require laravel/breeze
+-php artisan breeze:install
+-npm install
+-npm run dev
+
+2)run the following command to setup the database
+php artisan migrate
+
+3) set up for parsdown-extra ( for job content)
+-composer require erusev/parsedown-extra
+
+
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
